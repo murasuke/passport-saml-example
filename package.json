@@ -17,18 +17,13 @@
       "email": "me@gbraad.nl"
     }
   ],
-  "keywords": [
-    "saml",
-    "sso"
-  ],
+  "keywords": ["saml", "sso"],
   "repository": {
     "type": "git",
-    "url": "https://github.com/gbraad/passport-saml-example.git"
+    "url": "https://github.com/Brokray/passport-saml-example.git"
   },
   "scripts": {
-    "start": "nodemon app.js",
-    "test": "",
-    "postinstall": "bower install"
+    "start": "nodemon app.js"
   },
   "dependencies": {
     "body-parser": "1.15.1",
