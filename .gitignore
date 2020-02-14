@@ -2,3 +2,4 @@
 /bower_components
 /public
 /.idea
+.env.local

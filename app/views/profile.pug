@@ -9,4 +9,8 @@ block content
 		dt Email
 		dd #{user.email}
 
+	ul
+	each val, index in user
+		li= index + ': ' + val
+
 	a(href="/logout") Logout
