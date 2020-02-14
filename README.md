@@ -10,6 +10,21 @@ $ bower install
 $ npm start
 ```
 
+## Env
+
+Do not forget to specify all the environement variables.
+
+```text
+FACEBOOK_APP_ID
+FACEBOOK_APP_SECRET
+GOOGLE_CLIENT_ID
+GOOGLE_CLIENT_SECRET
+PASSPORT_STRATEGY (default to saml)
+SAML_ENTRY_POINT
+SAML_ISSUER
+SESSION_SECRET
+```
+
 ## License
 
 Licensed under the MIT license
