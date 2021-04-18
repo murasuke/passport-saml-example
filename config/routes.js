@@ -31,27 +31,27 @@ module.exports = function(app, config, passport) {
     }
   );
 
-  app.post(
-    config.passport.facebook.path,
-    passport.authenticate(config.passport.strategy, {
-      failureRedirect: "/",
-      failureFlash: true
-    }),
-    function(req, res) {
-      res.redirect("/");
-    }
-  );
+  // app.post(
+  //   config.passport.facebook.path,
+  //   passport.authenticate(config.passport.strategy, {
+  //     failureRedirect: "/",
+  //     failureFlash: true
+  //   }),
+  //   function(req, res) {
+  //     res.redirect("/");
+  //   }
+  // );
 
-  app.get(
-    config.passport.google.path,
-    passport.authenticate(config.passport.strategy, {
-      failureRedirect: "/",
-      failureFlash: true
-    }),
-    function(req, res) {
-      res.redirect("/");
-    }
-  );
+  // app.get(
+  //   config.passport.google.path,
+  //   passport.authenticate(config.passport.strategy, {
+  //     failureRedirect: "/",
+  //     failureFlash: true
+  //   }),
+  //   function(req, res) {
+  //     res.redirect("/");
+  //   }
+  // );
 
   app.get("/signup", function(req, res) {
     res.render("signup");
